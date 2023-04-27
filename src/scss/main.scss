@@ -1,0 +1,99 @@
+@import "variables";
+@import "config";
+
+// Hero section
+
+.hero {
+  padding: 32px;
+  margin: 20px;
+  height: fit-content;
+
+  .slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+    h1 {
+      font-size: 10rem;
+      font-style: italic;
+
+      word-spacing: 50px;
+      font-weight: 900;
+
+      span {
+        color: $tetiary;
+      }
+    }
+  }
+
+  .featured-shoe {
+    margin-top: 10px;
+    width: 100%;
+    min-height: auto;
+    height: 650px;
+    position: relative;
+    display: flex;
+    border-radius: 50px;
+    background: green;
+
+    .tag {
+      position: absolute;
+
+      top: 160px;
+      left: -88px;
+      rotate: -90deg;
+      background: #000;
+      padding: 10px 20px;
+      color: $primary;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .description {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+
+      .name {
+        h2 {
+          font-size: 3rem;
+          padding: 10px;
+          font-weight: 800;
+          text-transform: uppercase;
+        }
+        p {
+          padding-bottom: 30px;
+        }
+      }
+      .card-c {
+        display: inherit;
+        flex-direction: column;
+        gap: 10px;
+
+        .card {
+          width: 100px;
+          height: 100px;
+          border-radius: 5px;
+          border: 2px solid $primary;
+        }
+      }
+    }
+  }
+
+  .newdrops {
+    padding-top: 70px;
+    .title {
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      h2 {
+        font-size: 3rem;
+        line-height: 50px;
+      }
+    }
+  }
+}
