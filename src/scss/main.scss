@@ -1,5 +1,6 @@
 @import "variables";
 @import "config";
+@import "components";
 
 // Hero section
 
@@ -95,5 +96,55 @@
         line-height: 50px;
       }
     }
+    &-products {
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-between;
+    }
   }
+}
+
+// Categories Section
+
+.categories {
+  width: 100%;
+  background: #232321;
+  height: 486px;
+  color: #ffffff;
+  padding: 30px 50px;
+
+  .title {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .cat {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .catcard {
+      width: 50%;
+      height: 350px;
+      background: green;
+    }
+    .one {
+      border-top-left-radius: 50px;
+    }
+  }
+}
+.class-arrows {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.class-arrow {
+  position: relative !important;
+  top: -30px !important;
+  left: 0 !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+  width: 30px !important;
+  height: 30px !important;
 }

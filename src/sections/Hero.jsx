@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "../components/";
 
 const Hero = () => {
   return (
@@ -40,6 +41,12 @@ const Hero = () => {
               Shop now
             </a>
           </div>
+        </div>
+        <div className="newdrops-products">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
     </div>

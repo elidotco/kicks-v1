@@ -18,6 +18,52 @@ body {
   margin-top: 10px;
 }
 
+.secondary-button {
+  padding: 10px 30px;
+  background: black;
+  color: #e7e7e3;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.secondary-button:hover {
+  text-decoration: none;
+}
+
+.card {
+  width: 20%;
+  height: 350px;
+}
+.card .image {
+  width: 100%;
+  height: 69%;
+  border: 5px solid white;
+  border-radius: 20px;
+  position: relative;
+}
+.card .image .ntag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 10px;
+  background: #4a69e2;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 20px;
+}
+.card .des {
+  width: 100%;
+  height: 31%;
+  padding: 0;
+  padding-top: 30px;
+}
+.card .des h3 {
+  padding-bottom: 20px;
+  word-spacing: 5px;
+}
+
 .hero {
   padding: 32px;
   margin: 20px;
@@ -100,4 +146,50 @@ body {
 .hero .newdrops .title h2 {
   font-size: 3rem;
   line-height: 50px;
+}
+.hero .newdrops-products {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories {
+  width: 100%;
+  background: #232321;
+  height: 486px;
+  color: #ffffff;
+  padding: 30px 50px;
+}
+.categories .title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.categories .cat {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.categories .cat .catcard {
+  width: 50%;
+  height: 350px;
+  background: green;
+}
+.categories .cat .one {
+  border-top-left-radius: 50px;
+}
+
+.class-arrows {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.class-arrow {
+  position: relative !important;
+  top: -30px !important;
+  left: 0 !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+  width: 30px !important;
+  height: 30px !important;
 }/*# sourceMappingURL=main.css.map */
