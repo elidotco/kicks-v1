@@ -172,10 +172,11 @@ body {
 .categories .cat .catcard {
   width: 50%;
   height: 350px;
-  background: green;
+  background: #f6f6f6;
 }
 .categories .cat .one {
   border-top-left-radius: 50px;
+  background: #eceef0;
 }
 
 .class-arrows {
