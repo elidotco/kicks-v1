@@ -64,6 +64,38 @@ body {
   word-spacing: 5px;
 }
 
+.revcard {
+  width: 30%;
+  height: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+.revcard .des {
+  width: 100%;
+  height: 30%;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+  border: 2px solid green;
+  display: inherit;
+  flex-direction: inherit;
+}
+.revcard .des .msg {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.revcard .des .msg .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid green;
+}
+
 .hero {
   padding: 32px;
   margin: 20px;
@@ -171,21 +203,53 @@ body {
 }
 .categories .cat .catcard {
   width: 50%;
+  padding: 0;
   height: 350px;
   background: #f6f6f6;
+  display: flex;
+  color: #000;
+  align-items: center;
+  flex-direction: column;
+}
+.categories .cat .catcard-image {
+  height: 80%;
+  width: 100%;
+  background-color: aqua;
+  border-radius: inherit;
+}
+.categories .cat .catcard-title {
+  width: 100%;
+  padding: 10px 20px;
+  display: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.categories .cat .catcard-title p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.categories .cat .catcard-title .link {
+  background: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  color: #e7e7e3;
+  cursor: pointer;
+  font-size: 20px;
 }
 .categories .cat .one {
   border-top-left-radius: 50px;
   background: #eceef0;
 }
-
-.class-arrows {
+.categories .class-arrows {
   display: flex;
   justify-content: flex-end;
   gap: 15px;
 }
-
-.class-arrow {
+.categories .class-arrow {
   position: relative !important;
   top: -30px !important;
   left: 0 !important;
@@ -193,4 +257,25 @@ body {
   padding: 5px !important;
   width: 30px !important;
   height: 30px !important;
+}
+
+.reviews {
+  width: 100%;
+  padding: 30px 50px;
+}
+.reviews .title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviews .title h3 {
+  font-size: 4rem;
+  color: #232321;
+}
+.reviews .revs {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

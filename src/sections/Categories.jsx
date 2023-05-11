@@ -1,6 +1,7 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import React from "react";
 import "@splidejs/react-splide/css";
+import { FiArrowUpRight } from "react-icons/fi";
 
 const Categories = () => {
   return (
@@ -21,12 +22,34 @@ const Categories = () => {
       >
         <SplideSlide>
           <div className="cat">
-            <div className="catcard one"></div>
-            <div className="catcard"></div>
+            <div className="catcard one">
+              <div className="catcard-image"></div>
+              <div className="catcard-title">
+                <p>Lifestyle shoes</p>
+                <div className="link">
+                  <FiArrowUpRight />
+                </div>
+              </div>
+            </div>
+            <div className="catcard">
+              <div className="catcard-image"></div>
+              <div className="catcard-title">
+                <p>Lifestyle shoes</p>
+                <div className="link">
+                  <FiArrowUpRight />
+                </div>
+              </div>
+            </div>
           </div>
         </SplideSlide>
         <SplideSlide>
-          <img src="image2.jpg" alt="Image 2" />
+          <div className="catcard-image"></div>
+          <div className="catcard-title">
+            <p>Lifestyle shoes</p>
+            <div className="link">
+              <FiArrowUpRight />
+            </div>
+          </div>
         </SplideSlide>
       </Splide>
     </div>

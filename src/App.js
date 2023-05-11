@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navbar } from "./components";
-import { Categories, Hero } from "./sections";
+import { Categories, Hero, Reviews } from "./sections";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <Hero />
       <Categories />
+      <Reviews />
     </div>
   );
 }
