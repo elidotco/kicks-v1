@@ -14,6 +14,9 @@ const Reviews = () => {
         <ReviewCard />
         <ReviewCard />
       </div>
+      <div className="revs om">
+        <ReviewCard />
+      </div>
     </div>
   );
 };

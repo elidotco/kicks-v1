@@ -1,13 +1,15 @@
 @import "variables";
 @import "config";
 @import "components";
+@import "sections";
+@import "responsive";
 
 // Hero section
 
 .hero {
   padding: 32px;
   margin: 20px;
-  height: fit-content;
+  height: 100%;
 
   .slogan {
     display: flex;
@@ -109,7 +111,7 @@
 .categories {
   width: 100%;
   background: #232321;
-  height: 486px;
+  height: 100%;
   color: #ffffff;
   padding: 30px 50px;
 
@@ -208,5 +210,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .om {
+    display: none;
   }
 }

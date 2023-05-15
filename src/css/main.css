@@ -96,11 +96,151 @@ body {
   border: 2px solid green;
 }
 
+.footer {
+  padding: 20px 50px;
+  width: 100%;
+}
+.footer .layer {
+  background: #4a69e2;
+  border-radius: 20px;
+}
+.footer .newsletter {
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: whitesmoke;
+}
+.footer .newsletter .left,
+.footer .newsletter .right {
+  width: 35%;
+}
+.footer .newsletter h2 {
+  font-size: 2.55rem;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.footer .newsletter p {
+  font-weight: lighter;
+  margin: 20px 0 20px 0;
+}
+.footer .newsletter .left .news {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .newsletter .left .mail-input {
+  width: 70%;
+  height: 35px;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 20px;
+  color: #e7e7e3;
+}
+.footer .newsletter .left .mail-input:focus {
+  outline: none;
+}
+.footer .newsletter .left .mail-button {
+  width: 29%;
+  height: 35px;
+  border: none;
+  border-radius: 6px;
+  background: black;
+  color: whitesmoke;
+}
+.footer .bottom {
+  background: #232321;
+  border-radius: 20px;
+}
+.footer .bottom .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
+  color: #e7e7e3;
+}
+.footer .bottom .top .about {
+  width: 30%;
+}
+.footer .bottom .top ul {
+  list-style: none;
+}
+.footer .bottom .top h3,
+.footer .bottom .top h2 {
+  color: #ffa52f;
+}
+.footer .bottom .down {
+  width: 100%;
+}
+.footer .bottom .down img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    width: 47% !important;
+    margin-bottom: 50px;
+  }
+  .card .des {
+    padding-top: 10px !important;
+  }
+  .revcard {
+    width: 100%;
+  }
+  .hero {
+    margin: 10px !important;
+    padding: 10px !important;
+  }
+  .hero .slogan h1 {
+    font-size: 3rem !important;
+  }
+  .hero .slogan h1 span {
+    color: green !important;
+  }
+  .hero .newdrops {
+    padding-top: 20px !important;
+  }
+  .hero .newdrops h2 {
+    font-size: 2rem !important;
+  }
+  .hero .newdrops-products {
+    flex-wrap: wrap !important;
+  }
+  .categories .cat {
+    flex-direction: column !important;
+  }
+  .categories .cat .catcard {
+    width: 100% !important;
+  }
+  .reviews .revs {
+    display: none !important;
+  }
+  .reviews .om {
+    display: flex !important;
+  }
+  .footer .newsletter {
+    flex-wrap: wrap;
+  }
+  .footer .newsletter .left,
+  .footer .newsletter .right {
+    width: 100%;
+  }
+  .footer .bottom .top {
+    flex-direction: column;
+  }
+  .footer .bottom .top .about {
+    width: 100% !important;
+  }
+}
 .hero {
   padding: 32px;
   margin: 20px;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 100%;
 }
 .hero .slogan {
   display: flex;
@@ -188,7 +328,7 @@ body {
 .categories {
   width: 100%;
   background: #232321;
-  height: 486px;
+  height: 100%;
   color: #ffffff;
   padding: 30px 50px;
 }
@@ -278,4 +418,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.reviews .om {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

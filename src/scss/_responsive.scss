@@ -1,0 +1,79 @@
+// small screen
+
+@media screen and (max-width: $small) {
+  // components{
+
+  .card {
+    width: 47% !important;
+    margin-bottom: 50px;
+    .des {
+      padding-top: 10px !important;
+    }
+  }
+
+  .revcard {
+    width: 100%;
+  }
+
+  // hero
+  .hero {
+    margin: 10px !important;
+    padding: 10px !important;
+
+    .slogan {
+      h1 {
+        font-size: 3rem !important;
+        span {
+          color: green !important;
+        }
+      }
+    }
+    .newdrops {
+      padding-top: 20px !important;
+      h2 {
+        font-size: 2rem !important;
+      }
+
+      &-products {
+        flex-wrap: wrap !important;
+      }
+    }
+  }
+
+  .categories {
+    .cat {
+      flex-direction: column !important;
+
+      .catcard {
+        width: 100% !important;
+      }
+    }
+  }
+
+  .reviews {
+    .revs {
+      display: none !important;
+    }
+    .om {
+      display: flex !important;
+    }
+  }
+  .footer {
+    .newsletter {
+      flex-wrap: wrap;
+      .left,
+      .right {
+        width: 100%;
+      }
+    }
+    .bottom {
+      .top {
+        flex-direction: column;
+
+        .about {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

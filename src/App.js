@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navbar } from "./components";
-import { Categories, Hero, Reviews } from "./sections";
+import { Categories, Footer, Hero, Reviews } from "./sections";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Hero />
       <Categories />
       <Reviews />
+      <Footer />
     </div>
   );
 }
