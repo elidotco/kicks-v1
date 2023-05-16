@@ -56,11 +56,14 @@
       position: absolute;
       width: 100%;
       bottom: 0;
+
       padding: 40px;
       display: flex;
+      align-items: flex-end;
       justify-content: space-between;
 
       .name {
+        width: 50%;
         h2 {
           font-size: 3rem;
           padding: 10px;

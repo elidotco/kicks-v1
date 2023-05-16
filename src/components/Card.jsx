@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="card">
+    <div className="scard">
       <div className="image">
         <div className="ntag">New</div>
       </div>

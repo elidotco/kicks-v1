@@ -19,7 +19,7 @@ body {
 }
 
 .secondary-button {
-  padding: 10px 30px;
+  width: 100%;
   background: black;
   color: #e7e7e3;
   width: inherit;
@@ -33,18 +33,18 @@ body {
   text-decoration: none;
 }
 
-.card {
+.scard {
   width: 20%;
   height: 350px;
 }
-.card .image {
+.scard .image {
   width: 100%;
   height: 69%;
   border: 5px solid white;
   border-radius: 20px;
   position: relative;
 }
-.card .image .ntag {
+.scard .image .ntag {
   position: absolute;
   top: 0;
   left: 0;
@@ -53,13 +53,13 @@ body {
   border-top-left-radius: 16px;
   border-bottom-right-radius: 20px;
 }
-.card .des {
+.scard .des {
   width: 100%;
   height: 31%;
   padding: 0;
   padding-top: 30px;
 }
-.card .des h3 {
+.scard .des h3 {
   padding-bottom: 20px;
   word-spacing: 5px;
 }
@@ -114,12 +114,15 @@ body {
 }
 .footer .newsletter .left,
 .footer .newsletter .right {
-  width: 35%;
+  width: 45%;
 }
 .footer .newsletter h2 {
   font-size: 2.55rem;
   padding-bottom: 10px;
   font-weight: 600;
+}
+.footer .newsletter .right img {
+  width: 100%;
 }
 .footer .newsletter p {
   font-weight: lighter;
@@ -182,11 +185,11 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-  .card {
-    width: 47% !important;
+  .scard {
+    width: 48% !important;
     margin-bottom: 50px;
   }
-  .card .des {
+  .scard .des {
     padding-top: 10px !important;
   }
   .revcard {
@@ -202,6 +205,13 @@ body {
   .hero .slogan h1 span {
     color: green !important;
   }
+  .hero .featured-shoe {
+    height: 500px !important;
+  }
+  .hero .featured-shoe .name h2 {
+    font-size: 2rem !important;
+    padding: 2px;
+  }
   .hero .newdrops {
     padding-top: 20px !important;
   }
@@ -211,11 +221,21 @@ body {
   .hero .newdrops-products {
     flex-wrap: wrap !important;
   }
+  .categories {
+    padding: 20px 20px !important;
+    padding: 20px 10px;
+  }
+  .categories .title {
+    font-size: 3rem !important;
+  }
   .categories .cat {
     flex-direction: column !important;
   }
   .categories .cat .catcard {
     width: 100% !important;
+  }
+  .reviews {
+    padding: 20px 20px !important;
   }
   .reviews .revs {
     display: none !important;
@@ -223,12 +243,20 @@ body {
   .reviews .om {
     display: flex !important;
   }
+  .footer {
+    padding: 20px 20px !important;
+  }
   .footer .newsletter {
     flex-wrap: wrap;
+    gap: 20px;
   }
   .footer .newsletter .left,
   .footer .newsletter .right {
     width: 100%;
+  }
+  .footer .newsletter .left .news,
+  .footer .newsletter .right .news {
+    gap: 20px;
   }
   .footer .bottom .top {
     flex-direction: column;
@@ -284,7 +312,11 @@ body {
   bottom: 0;
   padding: 40px;
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
+}
+.hero .featured-shoe .description .name {
+  width: 50%;
 }
 .hero .featured-shoe .description .name h2 {
   font-size: 3rem;

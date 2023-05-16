@@ -54,7 +54,7 @@ a:hover {
   transition: all 5ms;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1007px) {
   .nav-container {
     padding: 10px;
   }
