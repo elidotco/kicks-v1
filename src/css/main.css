@@ -16,6 +16,7 @@ body {
   color: #e7e7e3;
   border-radius: 5px;
   margin-top: 10px;
+  font-size: medium !important;
 }
 
 .secondary-button {
@@ -201,6 +202,7 @@ body {
   }
   .hero .slogan h1 {
     font-size: 3rem !important;
+    word-spacing: 10px !important;
   }
   .hero .slogan h1 span {
     color: green !important;
@@ -215,8 +217,9 @@ body {
   .hero .newdrops {
     padding-top: 20px !important;
   }
-  .hero .newdrops h2 {
-    font-size: 2rem !important;
+  .hero .newdrops .title h2 {
+    font-size: 1rem !important;
+    line-height: normal !important;
   }
   .hero .newdrops-products {
     flex-wrap: wrap !important;
@@ -226,7 +229,7 @@ body {
     padding: 20px 10px;
   }
   .categories .title {
-    font-size: 3rem !important;
+    font-size: 2rem !important;
   }
   .categories .cat {
     flex-direction: column !important;
@@ -236,6 +239,9 @@ body {
   }
   .reviews {
     padding: 20px 20px !important;
+  }
+  .reviews .title h3 {
+    font-size: 2rem !important;
   }
   .reviews .revs {
     display: none !important;

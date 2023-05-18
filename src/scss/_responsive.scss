@@ -23,6 +23,7 @@
     .slogan {
       h1 {
         font-size: 3rem !important;
+        word-spacing: 10px !important;
         span {
           color: green !important;
         }
@@ -42,8 +43,11 @@
 
     .newdrops {
       padding-top: 20px !important;
-      h2 {
-        font-size: 2rem !important;
+      .title {
+        h2 {
+          font-size: 1rem !important;
+          line-height: normal !important;
+        }
       }
 
       &-products {
@@ -55,7 +59,7 @@
   .categories {
     padding: 20px 20px !important;
     .title {
-      font-size: 3rem !important;
+      font-size: 2rem !important;
     }
 
     padding: 20px 10px;
@@ -69,6 +73,11 @@
   }
 
   .reviews {
+    .title {
+      h3 {
+        font-size: 2rem !important;
+      }
+    }
     padding: 20px 20px !important;
     .revs {
       display: none !important;
