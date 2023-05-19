@@ -193,6 +193,11 @@ body {
   .scard .des {
     padding-top: 10px !important;
   }
+  .scard .des h3 {
+    font-size: 1rem;
+    word-spacing: 1px !important;
+    padding-bottom: 10px;
+  }
   .revcard {
     width: 100%;
   }
@@ -208,7 +213,14 @@ body {
     color: green !important;
   }
   .hero .featured-shoe {
+    border-radius: 40px !important;
     height: 500px !important;
+  }
+  .hero .featured-shoe .tag {
+    top: 120px !important;
+  }
+  .hero .featured-shoe .description {
+    padding: 20px !important;
   }
   .hero .featured-shoe .name h2 {
     font-size: 2rem !important;

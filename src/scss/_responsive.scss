@@ -8,6 +8,11 @@
     margin-bottom: 50px;
     .des {
       padding-top: 10px !important;
+      h3 {
+        font-size: 1rem;
+        word-spacing: 1px !important;
+        padding-bottom: 10px;
+      }
     }
   }
 
@@ -31,8 +36,14 @@
     }
 
     .featured-shoe {
+      border-radius: 40px !important;
       height: 500px !important;
-
+      .tag {
+        top: 120px !important;
+      }
+      .description {
+        padding: 20px !important;
+      }
       .name {
         h2 {
           font-size: 2rem !important;
